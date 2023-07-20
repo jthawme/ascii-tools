@@ -1,0 +1,17 @@
+{
+  "name": "@shtudio/ascii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "short-unique-id": "^4.4.4"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "release": "standard-version && git push --follow-tags"
+  }
+}
